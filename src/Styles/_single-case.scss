@@ -1,0 +1,68 @@
+.doctors-reply-preview{
+  padding: 10px;
+  background: whitesmoke;
+  border-radius: 4px;
+}
+
+.doctors-reply-preview p:last-child {
+  margin-bottom: 0;
+}
+
+.doctor-response-form{
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 5px solid $primary-color;
+}
+
+.image-box-wrapper {
+  text-align: center;
+}
+
+.image-box-wrapper .small-case-image {
+  width: auto !important;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  display: block;
+}
+
+.enlarged-case-image {
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.single-auth-image {
+  margin-top: 10px;
+}
+
+/***** Image download *****/
+.downloadable-images-blocks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2px;
+}
+
+.blob-square {
+  padding: 5px 12px;
+  min-width: 15px;
+  min-height: 15px;
+  margin-right: 4px;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-box-wrapper .small-case-image {
+    max-height: 200px;
+  }
+  .single-auth-image {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

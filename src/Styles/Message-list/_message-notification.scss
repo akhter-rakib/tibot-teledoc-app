@@ -1,0 +1,21 @@
+.navbar-nav {
+  position: relative;
+}
+
+.message-notification-icon {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  background-color: rgba(237, 41, 57, 0.95);
+  display: block;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 100%;
+  left: -17px;
+  top: -5px;
+  font-size: 9px;
+}

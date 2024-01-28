@@ -1,0 +1,68 @@
+@import 'image';
+@import 'text';
+@import 'input';
+@import 'message-image-loader';
+
+.message-item {
+  margin-bottom: 5px;
+  font-size: 0.96em;
+  white-space: pre-line;
+}
+
+.message-item__wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.message-item__avatar img {
+  max-width: 30px;
+}
+
+.message-item__content {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-item__avatar {
+  margin-top: auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container.message-wrapper {
+  max-width: 600px;
+}
+
+.doctor-message {
+  float: right;
+}
+
+.user-message {
+  float: left;
+}
+
+// padding modifications for right side doctor chat
+
+.message-item__wrapper.doctor-message {
+  flex-direction: row-reverse;
+}
+
+.doctor-message .message-item__content {
+  padding-left: 0;
+  padding-right: 18px;
+}
+
+// time display
+
+.message-item__content__time {
+  font-size: 12px;
+  color: #6f6f6f;
+}
+
+.doctor-message .message-item__content__time {
+  margin-left: 5px;
+}

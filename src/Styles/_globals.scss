@@ -1,0 +1,13 @@
+$primary-color: #15a1ca;
+$body-color: #212529;
+
+.tibot-button, .tibot-button:hover, .tibot-button:active {
+  background: $primary-color;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: .4em;
+}
+
+.tibot-button:hover {
+  background-color: darken( $primary-color, 10)
+}

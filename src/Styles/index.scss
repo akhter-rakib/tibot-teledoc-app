@@ -1,0 +1,20 @@
+@import 'globals';
+@import 'case-list';
+@import 'menu';
+@import 'square-spinner';
+@import 'tibot-full-screen-loader';
+@import 'bootstrap-override';
+@import 'doctor-history-report';
+@import 'single-case';
+@import 'nav';
+@import 'cases-page';
+@import 'load-awesome-clip';
+@import 'loader-button';
+@import 'Message/message';
+@import 'Message-list/message-list';
+@import 'Atoms/Atoms';
+@import 'single-case-message-wrapper';
+
+.main-wrapper {
+  padding-bottom: 25px;
+}

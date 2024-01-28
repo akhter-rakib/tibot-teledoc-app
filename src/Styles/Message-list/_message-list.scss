@@ -1,0 +1,30 @@
+@import 'message-notification';
+
+.message-list .list-group-item {
+  padding: 0;
+}
+
+.message-list .doctor-unread {
+  font-weight: bold;
+}
+
+.message-list .list-group-item:hover {
+  background: whitesmoke;
+}
+
+.message-list__image img {
+  width: 30px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.message-list__row > div {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.message-list .message-list__link {
+  padding: .75rem 1.25rem;
+  display: block;
+  color: rgb(20, 20, 20);
+}

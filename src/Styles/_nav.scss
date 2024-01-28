@@ -1,0 +1,16 @@
+.navbar {
+  pointer-events: none;
+}
+
+.navbar-nav {
+  pointer-events: auto;
+}
+
+.home-link {
+  pointer-events: auto;
+}
+
+.home-link img {
+  max-width: 100px;
+  height: auto;
+}

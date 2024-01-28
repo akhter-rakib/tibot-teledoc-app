@@ -1,0 +1,14 @@
+.text-message .doctor-message .message-item__content__body {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+}
+
+.text-message .user-message .message-item__content__body {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+}

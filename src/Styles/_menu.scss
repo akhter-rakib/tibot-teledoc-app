@@ -1,0 +1,50 @@
+.tibot-menu-wrapper {
+  background-color: $primary-color;
+  margin-bottom: 15px;
+}
+
+.doctor-name-under-menu {
+  margin-bottom: 10px;
+}
+
+.logo-holder {
+  pointer-events: auto;
+}
+
+.logo-holder img {
+  max-width: 100px;
+}
+
+.toggler-link {
+  color: #ffffff;
+}
+
+.toggler-link:hover {
+  color: #ffffff;
+}
+
+.tibot-menu-item {
+  display: block;
+  padding: 4px 10px;
+  width: 100%;
+}
+
+.tibot-menu-item:hover {
+  background: $primary-color;
+  color: #ffffff;
+  text-decoration: none;
+}
+.tibot-menu-item.active {
+    color: #000;
+    background: transparent;
+}
+
+.dropdown-menu.show {
+  left: -40px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown-menu.show {
+    left: -89px !important;
+  }
+}

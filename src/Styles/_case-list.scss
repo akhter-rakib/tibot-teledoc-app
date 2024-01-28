@@ -1,0 +1,79 @@
+.case-image img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+.case-image {
+  text-align: center;
+}
+
+.page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* bootstrap override starts */
+
+.case-list-heading-item.list-group-item:hover {
+  z-index: auto;
+}
+
+.list-group-item .mobile-only-th {
+  background: inherit;
+  margin-left: auto;
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.list-group-item .mobile-only-th .no-bold {
+  background: inherit;
+  margin-left: auto;
+  font-weight: normal !important;
+  color: $body-color;
+}
+
+/* bootstrap override ends */
+
+@media screen and (min-width: 768px) {
+
+  .case-list-heading-item {
+    background: $primary-color;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid $primary-color;
+  }
+  .case-list__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .case-list__row > div {
+    width: 110px;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .case-list__row > .case-open {
+    width: 70px;
+  }
+
+  .case-list__row > .case-list__row > div {
+    width: 50px;
+  }
+
+  .case-list__row .remove-case-claim {
+    width: 135px;
+  }
+  
+  .case-image img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .case-list__row > div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}

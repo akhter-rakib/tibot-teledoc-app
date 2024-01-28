@@ -1,0 +1,9 @@
+.list-page-heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .page-heading {
+    margin-bottom: 10px;
+  }
+}

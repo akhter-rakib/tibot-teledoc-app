@@ -1,0 +1,19 @@
+.loader-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  button {
+    margin-left: 10px;
+  }
+
+  .la-ball-clip-rotate {
+    color: $primary-color;
+  }
+
+  .btn-primary.disabled, .btn-primary:disabled{
+    color: #ffffff;
+    background-color: grey;
+    border: 1px solid grey;
+  }
+}
